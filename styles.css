@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: lightblue;
+  font-family: 'Roboto', sans-serif;
+  background-image: url("islamic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+
+h1,
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+}
+
+
+#count-el {
+  font-size: 30px;
+}
+
+.btn {
+  padding: 20px 50px 20px 50px;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.btn-1 {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+.btn-2 {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
